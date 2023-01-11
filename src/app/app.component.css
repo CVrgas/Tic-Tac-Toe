@@ -1,0 +1,41 @@
+.container{
+    margin: auto;
+    margin-top: 5%;
+    padding: 5%;
+    border-radius: 100px;
+    background: linear-gradient(145deg, #942828, #991f1f);
+    box-shadow:  5px 5px 5px #911d1d,-5px -5px 5px #c42727;
+}
+.header{
+    display: flex;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25), -5px -5px 5px rgba(214, 214, 214, 0.25);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+.grid-item{
+    border: 1px solid black;
+    height: 150px;
+    font-size: 100px;
+}
+.grid-item:hover{
+    background-color: rgb(231, 221, 221);
+}
+
+.text{
+    margin: auto;
+}
+.Start-button{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 0.25px solid #d8d7e7;
+    background-color: rgb(228, 228, 228);
+}
+.Start-button:hover{
+    background-color: white;
+}
